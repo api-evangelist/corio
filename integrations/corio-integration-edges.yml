@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/corio/integrations
+- https://zapier.com/apps/corio-inc/integrations
+- https://n8n.io/integrations/corio/
+- https://composio.dev/toolkits/corio
+- https://monid.ai/tools/corio
+checked:
+- https://composio.dev/toolkits/corio
+- https://monid.ai/tools/corio
+- https://n8n.io/integrations/corio/
+- https://zapier.com/apps/corio-inc/integrations
+- https://zapier.com/apps/corio/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
