@@ -64,28 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: defunct — acquired by IBM (2005). No API surface.**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Corio, Inc. was an enterprise Application Service Provider (ASP) founded in September 1998 in San Carlos, California and incorporated in Delaware, formed by acquiring the capital stock of Data Systems Connectors, Inc. Corio implemented, hosted and managed packaged enterprise business software from Oracle, PeopleSoft, SAP, Ariba and Siebel Systems for medium and large public, private, non-profit and public sector customers, delivering ERP, CRM and e-business functionality as a service from secure third-party data centers over IP networks.
+Corio, Inc. was an enterprise Application Service Provider (ASP) founded in September 1998 in San Carlos, California, and incorporated in Delaware, formed by acquiring the capital stock of Data Systems Connectors, Inc. Corio implemented, hosted and managed packaged enterprise business software from Oracle, PeopleSoft, SAP, Ariba and Siebel Systems on behalf of medium and large public, private, non-profit and public sector customers, delivering ERP, CRM and e-business functionality as a service from secure third-party data centers over IP networks. The company operated two lines of business — Application Management Services and Professional Services — and partnered with (i)Structure, XO Communications and Qwest for data center and network infrastructure. Backed by Kleiner Perkins Caufield & Byers (29.5% pre-IPO across the KPCB Java Fund, KPCB VIII, KPCB VIII Founders Fund and KPCB Information Sciences Zaibatsu Fund II, with Vinod Khosla and Ted Schlein on the board) and Cap Gemini Ernst & Young, Corio went public on NASDAQ in 2000. IBM agreed to acquire Corio on 24 January 2005 for $2.82 per share in cash via Nike Acquisition Corp.; Corio filed its Form 15 deregistration on 15 March 2005 and was absorbed into IBM. The company is defunct, publishes no API, developer portal or documentation, and corio.com is a parked domain — there is no API surface to enrich.
 
-The company operated two lines of business — Application Management Services and Professional Services — and partnered with (i)Structure, XO Communications and Qwest for data center and network infrastructure.
+**Areas:** Company · Enterprise · Application Service Provider · Enterprise Software · Managed Hosting · Outsourcing · ERP · CRM · Defunct · Acquired
 
-## Investors
+## Corio, Inc. on APIs.io (historical record)
 
-Backed by Kleiner Perkins Caufield & Byers (29.5% pre-IPO, held across the KPCB Java Fund, KPCB VIII, KPCB VIII Founders Fund and KPCB Information Sciences Zaibatsu Fund II; Vinod Khosla and Ted Schlein served on the board) and Cap Gemini Ernst & Young. Corio went public on NASDAQ in 2000.
+Everything profiled for Corio, Inc. is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/corio/](https://apis.io/providers/corio/)** — or go straight to one of the APIs or properties below.
 
-## Outcome
+## API Evangelist rating
 
-IBM agreed to acquire Corio on 24 January 2005 for $2.82 per share in cash via Nike Acquisition Corp. Corio filed its Form 15 deregistration on 15 March 2005 and was absorbed into IBM.
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-## Enrichment notes
+## How this profile is made
 
-Identity verified against SEC EDGAR (CIK 0001111001, SIC 7371). The enrichment pipeline found no API, developer portal, documentation, packages, well-known documents, CLI, or event surface:
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- `corio.com` resolves to a parked soft-404 catch-all (208.91.197.195) that returns HTTP 200 for every path, including `/.well-known/*` and `/llms.txt` — no harvestable well-known artifacts.
-- No `corio` GitHub organization (404).
-- npm `corio` is an empty placeholder with zero published versions; PyPI `corio` is unrelated third-party AI/ML tooling by `fmtr`. Neither is first-party, so no packages artifact was written.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Corio, Inc.: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Reference
+## Open an issue
 
-- [SEC EDGAR filings (CIK 0001111001)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001111001&type=&dateb=&owner=include&count=40)
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/corio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
